@@ -1,0 +1,30 @@
+{
+    "API_KEYS": {
+        "groq": "",
+        "anthropic": "",
+        "ollama_ip": "",
+        "gemini": "",
+        "perplexity": "",
+        "openai": ""
+    },
+    "API_URLS": {
+        "groq_models": "https://api.groq.com/openai/v1/models",
+        "groq_llm": "https://api.groq.com/openai/v1/chat/completions",
+        "ollama_models": "http://<ollama_server_ip>:<port>/api/tags",
+        "ollama_llm": "http://<ollama_server_ip>:<port>/api/generate",
+        "openai_llm": "https://api.openai.com/v1/chat/completions",
+        "perplexity": "https://api.perplexity.ai",
+        "gemini": "https://generativelanguage.googleapis.com/v1/models"
+    },
+    "HEADERS": {
+        "groq": {
+            "Authorization": "Bearer ",
+            "Content-Type": "application/json"
+        }
+    },
+    "GEMINI_MODELS": [
+        {"id": "gemini-1.0-pro", "description": "Gemini 1.0 Pro - A text-focused model for multi-turn conversations and code generation."},
+        {"id": "gemini-1.5-flash", "description": "Gemini 1.5 Flash - A faster and efficient multimodal model optimized for speed."},
+        {"id": "gemini-1.5-pro", "description": "Gemini 1.5 Pro - A comprehensive multimodal model."}
+    ]
+}
